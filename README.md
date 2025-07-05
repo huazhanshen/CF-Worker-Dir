@@ -66,13 +66,13 @@ const config = {
 }
 ```
 
-# 获取图标自定义函数：
-
+## 获取图标自定义函数
+```
 function getFavicon(url) {
   const domain = url.replace(/^https?:\/\//, '').split('/')[0];
   return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
 }
-
+```
 
 
 ## Todo
